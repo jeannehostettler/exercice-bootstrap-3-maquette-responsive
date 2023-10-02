@@ -38,6 +38,7 @@ a {
 img,
 video {
   max-inline-size: 100%;
+  width: 100%;
   block-size: auto;
   vertical-align: middle;
 }
@@ -64,6 +65,15 @@ h1 {
   margin-bottom: 20px;
 }
 
+.grey-text {
+  color: #b3b3b3;
+}
+
+.publisher-grey {
+  display: flex;
+  justify-content: center;
+}
+
 .mia {
   margin-bottom: 20px;
 }
@@ -78,9 +88,6 @@ h1 {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 25px;
-  width: 430px;
-  height: 52px;
-  flex-shrink: 0;
 }
 
 .theones {
@@ -94,6 +101,7 @@ h1 {
   font-size: 10px;
   text-align: center;
   line-height: 20px;
+  padding-bottom: 30px;
 }
 
 .article-font {
@@ -173,4 +181,13 @@ h1 {
 .other-articles {
   margin: 0 20px 20px 20px;
   padding-top: 25px;
+}
+
+.westside {
+  font-family: "Heebo", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: normal;
+  padding: 20px 20px 51px 20px;
+  margin-bottom: 50px;
 }
