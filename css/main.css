@@ -52,10 +52,6 @@ video {
   border: 1px solid rgba(86, 61, 124, 0.2);
 } */
 
-.mia {
-  background-color: white;
-}
-
 .mia h2 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
@@ -68,7 +64,7 @@ video {
   padding-top: 25px;
 }
 
-.mia p {
+.publisher {
   font-family: "Heebo", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -76,11 +72,7 @@ video {
   text-align: center;
 }
 
-.theones {
-  background-color: white;
-}
-
-.theones h2 {
+.article-font {
   font-family: "Heebo", sans-serif;
   text-align: center;
   font-size: 18px;
@@ -90,4 +82,14 @@ video {
   margin-right: 10px;
   margin-bottom: 50px;
   padding-top: 25px;
+}
+
+.background {
+  background-color: white;
+}
+
+.reviews {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin-top: 20px;
 }
